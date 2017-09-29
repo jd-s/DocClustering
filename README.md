@@ -1,17 +1,17 @@
 # DocClustering Documentation
 
 Software package to solve PS-Document Clustering.
-<img src="abb/exl1.png" alt="Drawing" style="float:right;width: 200px;"/>
+<img src="abb/exl1.png" align="right" width="200" alt="Drawing" style="float:right;width: 200px;"/>
 
 This package can be either used directly in Python interpreter (or a Jupyter Notebook) or as a standalone application. Please see the first section for documentation on the standalone version. 
 
 <b>Content</b>
-1. [ Interactive usage](#Interactiv-usage)
-2. [ Using the standalone Application](#Using-the-standalone-Application)
+1. [ Interactive usage](#interactive-usage)
+2. [ Using the standalone Application](#using-the-standalone-application)
 3. [ Further information ](#further-information)
 
 <div align="center">
-<img src="abb/exl2.png" alt="Drawing" style="width: 300px;"/>
+<img src="abb/exl2.png" alt="Drawing" width="300" style="width: 300px;"/>
 </div>
 
 # Interactive usage
@@ -119,6 +119,7 @@ All of them are available with the methods <code>runSLF, runGIS</code> and <code
 ## Feature Selection, Output analyses
 
 The network graph is directly available as <code>cluster.G</code> and you may use all networkx functions to analyse it. But we provide some comfortable functions do access the clustering:
+
 | function     | explanation                                                  | 
 | -------- | ---------------------------------------------------------- |
 | <code>getClusters()</code> 	 | Prints the list of all clusters, example: <br> <code>{0: {'value': 3}}</code>
@@ -156,6 +157,7 @@ The default behaviour is stored in <code>etc/config.cfg</code>. Please change it
 Usage: <code>clustering.py [options]</code>
 
 Options:
+
 | task     | parameter                                                  | description                 |
 |:--------:|:---------------------------------------------------------- |:----------------------------|
 | help  | <code> -h, --help </code> | show this help message and exit |
@@ -176,5 +178,5 @@ Please see
 * Dörpinghaus, J., Schaaf, S., Fluck, J., and Zimmermann, M. (2017). Document
 clustering using a graph covering with pseudostable sets. In <i>Proceedings of the
 2017 Federated Conference on Computer Science and Information Systems</i>, Annals
-of Computer Science and Information Systems, pages 329–338. IEEE
+of Computer Science and Information Systems, pages 329–338. 
 

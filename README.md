@@ -169,6 +169,13 @@ Options:
 | nodes  | <code> -n NODES, --nodes=NODES </code> | Node count for random instances, default 100 |
 |  | <code> -e EDGESPERCENT, --edgesPercent=EDGESPERCENT </code> | Percent value until documents are not similar, 0<e<b<100 |
 |   | <code> -b EDGESBLUEPERCENT, --blueEdgesPercent=EDGESBLUEPERCENT</code> | Percent value until documents are blue  0<e<b<100 |
+# Cite
+
+If you use this software, please cite the following publication:
+* Dörpinghaus, J., Schaaf, S., Fluck, J., and Zimmermann, M. (2017). Document
+clustering using a graph covering with pseudostable sets. In <i>Proceedings of the
+2017 Federated Conference on Computer Science and Information Systems</i>, Annals
+of Computer Science and Information Systems, pages 329–338. 
 
 # Further information
 

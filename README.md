@@ -1,8 +1,5 @@
 # DocClustering Documentation
 
-<<<<<<< HEAD
-This software has been removed due to unwanted indexing at some strange websites. Please stop crawling the web for personal data and software!
-=======
 Software package to solve PS-Document Clustering.
 <img src="abb/exl1.png" align="right" width="200" alt="Drawing" style="float:right;width: 200px;"/>
 
